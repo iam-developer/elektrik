@@ -1,4 +1,11 @@
 
+@media screen and (max-width: 1199px) {
+    .home {
+        height: 777px;
+        background-position: center;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .none_menu {
         display: none;
@@ -21,15 +28,11 @@
         font-size: 60px;
         line-height: 75px;
     }
-    .home_logo {
-        width: 56px;
+    .home {
+        height: 731px;
     }
-    .home_text {
-        font-size: 16px;
-    }
-    .home_block {
-        flex-direction: column;
-        align-items: flex-start;
+    .home_title {
+        font-size: 50px;
     }
     .home {
         background-position: center;
@@ -75,13 +78,12 @@
     .footer_phone {
         font-size: 22px;
     }
+    .home_title {
+        font-size: 48px;
+        line-height: 60px;
+    }
 }
 @media screen and (max-width: 504px) {
-    .home_title {
-        font-size: 50px;
-        line-height: 60px;
-        padding-top: 156px;
-    }
     .call_me {
         font-size: 25px;
     }
@@ -98,11 +100,12 @@
         font-size: 34px;
     }
 }
-@media screen and (max-width: 430px) {
-    .home_title {
-        font-size: 40px;
-        line-height: 50px;
+@media screen and (max-width: 444px) {
+    .home {
+        height: 712px;
     }
+}
+@media screen and (max-width: 430px) {
     .services_title {
         font-size: 18px;
     }
@@ -111,6 +114,9 @@
     }
     .title_text {
         font-size: 32px;
+    }
+    .home_title {
+        font-size: 42px;
     }
 }
 @media screen and (max-width:412px) {
@@ -143,11 +149,11 @@
     .call_master {
         font-size: 25px;
     }
+    .zz {
+        padding-top: 20px;
+    }
 }
 @media screen and (max-width: 356px) {
-    .home_title {
-        line-height: 46px;
-    }
     .slider {
         height: 220px;
     }
@@ -159,6 +165,11 @@
     }
     .call_master {
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .home_title {
+        font-size: 38px;
     }
 }
 @media screen and (max-width:335px) {
