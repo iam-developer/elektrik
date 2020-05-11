@@ -20,6 +20,9 @@
         line-height: 19px;
         align-items: center;
     }
+    .about_text:last-child {
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 767px) {
     .home_title {
