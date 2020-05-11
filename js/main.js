@@ -65,7 +65,7 @@ $(".burger_menu").click(function() {
 
     $('#abouts').on("click", function(e){
         e.preventDefault();
-            var top = $(".about_us").offset().top;
+            var top = $("#aboutDesktop").offset().top;
         $('html,body').animate({
            scrollTop: top
         }, 900);
@@ -107,7 +107,7 @@ $(".burger_menu").click(function() {
 
     $('#about').on("click", function(e){
         e.preventDefault();
-            var top = $(".about_us").offset().top;
+            var top = $("#aboutDesktop").offset().top;
         $('html,body').animate({
            scrollTop: top
         }, 900);

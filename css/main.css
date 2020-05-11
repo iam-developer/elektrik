@@ -269,7 +269,10 @@ button:not(:disabled) {
     align-items: center;
 }
 .service_cont {
-    padding-top: 30px;
+    padding-top: 40px;
+}
+.service_cont2 {
+    padding-top: 40px;
 }
 .title {
     position: relative;
