@@ -257,13 +257,16 @@ button:not(:disabled) {
 .about_us {
     width: 100%;
     margin: 0 auto;
-    padding: 40px 0 0;
+    padding: 40px 0 40px;
     position: relative;
     background-image: url(../img/back_img4.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.align_item {
+    align-items: center;
 }
 .service_cont {
     padding-top: 30px;
@@ -298,6 +301,9 @@ button:not(:disabled) {
     background-color: #eaeaea;
     border-radius: 18px 0 18px 0;
     margin-bottom: 20px;
+}
+.about_text:last-child {
+    margin-bottom: 0;
 }
 .cent {
     text-align: center;
