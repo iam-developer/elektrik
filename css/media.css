@@ -1,7 +1,6 @@
 
 @media screen and (max-width: 1199px) {
     .home {
-        height: 777px;
         background-position: center;
     }
 }
@@ -28,9 +27,6 @@
         font-size: 60px;
         line-height: 75px;
     }
-    .home {
-        height: 731px;
-    }
     .home_title {
         font-size: 50px;
     }
@@ -51,6 +47,9 @@
     }
     .contacts {
         justify-content: center;
+    }
+    .icons {
+        text-align: center;
     }
     .footer_txt {
         padding-left: 14px;
@@ -100,11 +99,6 @@
         font-size: 34px;
     }
 }
-@media screen and (max-width: 444px) {
-    .home {
-        height: 712px;
-    }
-}
 @media screen and (max-width: 430px) {
     .services_title {
         font-size: 18px;
@@ -148,9 +142,6 @@
     }
     .call_master {
         font-size: 25px;
-    }
-    .zz {
-        padding-top: 20px;
     }
 }
 @media screen and (max-width: 356px) {
