@@ -84,6 +84,12 @@
         font-size: 48px;
         line-height: 60px;
     }
+    .zz {
+        padding-top: 100px;
+    }
+    .home_title {
+        padding-top: 180px;
+    }
 }
 @media screen and (max-width: 504px) {
     .call_me {
